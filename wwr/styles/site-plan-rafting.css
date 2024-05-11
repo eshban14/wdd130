@@ -1,0 +1,60 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+    text-align: center;
+}
+div{
+    text-align: left;
+    padding-left: 10px;
+}
+nav{
+    text-align: center;
+    padding: 20px;
+    }
+nav a{
+    text-transform: uppercase;
+    color: #151515;
+    color: #EEEEEE;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+    background-color:#C73659;
+
+}    
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #A91D3A;
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: auto;
+
+}
+main{
+    text-align: center;
+    width: 800px;
+    margin: 20px;
+    border: 2px solid #C73659;
+    padding: 10px;
+    background-color: #EEEEEE;
+    color: #151515;
+}
+ul{
+    padding-top: 10px;
+    text-align: left;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 2px solid #333;
+    text-align: center;
+}
