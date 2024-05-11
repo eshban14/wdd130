@@ -1,0 +1,82 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    
+  }
+  :root {
+    --primary-color: #336699;
+    --secondary-color: #FF9900;
+    --accent-color-1: #66CCCC;
+    --accent-color-2: #FF6666;
+  }
+h1 img{
+    width: 200px;
+    height: auto;
+}
+header {
+    background-color: #336699;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #FF6666;
+    padding: 20px;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    text-transform: capitalize;
+    font-size: 25px;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    
+    background-color:#336699;
+    color:#66CCCC ;
+}
+h2{
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 25px;
+}
+h4{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;  
+}
+h4 img{
+    text-align: center;
+}
+.aud{
+    border: 2px solid #C73659;
+    padding: 10px;
+    background-color: #66CCCC;
+    color: #151515;
+}
+h1,h2,h3,h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #C73659;
+}
+footer {
+    margin-top: 20px;
+    border-top: 2px solid #333;
+    text-align: center;
+}
+
