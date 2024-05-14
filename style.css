@@ -3,6 +3,11 @@ body {
     margin: 0;
     padding: 0;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header {
     background-color: #333;
@@ -10,25 +15,25 @@ header {
     padding: 10px 0;
 }
 
-.nav-links {
+.box {
     list-style-type: none;
     text-align: center;
 }
 
-.nav-links li {
+.box li {
     display: inline;
     margin-right: 20px;
 }
 
-.nav-links li:last-child {
+.box li:last-child {
     margin-right: 0;
 }
 
-.nav-links a {
+.box a {
     color: white;
     text-decoration: none;
 }
-.nav-links a:hover{
+.box a:hover{
     color: green;
 }
 
@@ -55,26 +60,29 @@ main {
     color: green;
 } 
 
-.student-image {
+.main-img{
+    width: 400px;
+    height: 450px;
     float: right;
     margin-left: 20px;
 }
 p{
     font-size: 26px;
 }
-aside {
+.aside {
     position: relative;
     margin-top: 20px;
     margin-left: 20px;
 }
 
-
+/* Styling for aside image */
 .aside-image {
     width: 500px;
     height: auto;
 }
 
-aside h2 {
+/* Styling for aside content */
+.aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
@@ -82,10 +90,7 @@ aside h2 {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
 }
-.student-image{
-    width: 400px;
-    height: 450px;
-}
+
 .temple1{
     text-align: center;
     margin: 20px;
@@ -97,4 +102,9 @@ aside h2 {
 .temple1 img{
     width: 900px;
 
+}
+footer {
+    margin-top: 20px;
+
+    text-align: center;
 }
