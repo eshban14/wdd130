@@ -45,6 +45,7 @@ main {
 .temple-list {
     list-style-type: none;
 }
+/* Styling for temple list items */
 
 .temple-list li {
     margin-bottom: 10px;
@@ -59,7 +60,7 @@ main {
 .temple-list a:hover{
     color: green;
 } 
-
+/* Styling for student image */
 .main-img{
     width: 400px;
     height: 450px;
