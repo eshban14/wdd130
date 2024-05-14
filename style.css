@@ -1,82 +1,100 @@
-
 body {
-    font-family: 'Open Sans', sans-serif;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_bold.woff);
-    
-  }
-  :root {
-    --primary-color: #336699;
-    --secondary-color: #FF9900;
-    --accent-color-1: #66CCCC;
-    --accent-color-2: #FF6666;
-  }
-h1 img{
-    width: 200px;
-    height: auto;
-}
-header {
-    background-color: #336699;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-nav {
-    background-color: #FF6666;
-    padding: 20px;
-    text-align: center;
-}
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-    text-transform: capitalize;
-    font-size: 25px;
-    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul li a {
-    color: #fff;
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: white;
     text-decoration: none;
 }
+.nav-links a:hover{
+    color: green;
+}
 
-nav ul li a:hover {
-    
-    background-color:#336699;
-    color:#66CCCC ;
-}
-h2{
-    padding: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-size: 25px;
-}
-h4{
-    text-align: center;
-    font-size: 25px;
-    text-transform: uppercase;  
-}
-h4 img{
-    text-align: center;
-}
-.aud{
-    border: 2px solid #C73659;
-    padding: 10px;
-    background-color: #66CCCC;
-    color: #151515;
-}
-h1,h2,h3,h4{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: #C73659;
-}
-footer {
+main {
     margin-top: 20px;
-    border-top: 2px solid #333;
-    text-align: center;
+    padding: 20px;
 }
 
+.temple-list {
+    list-style-type: none;
+}
+
+.temple-list li {
+    margin-bottom: 10px;
+}
+
+.temple-list a {
+    text-decoration: none;
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+}
+.temple-list a:hover{
+    color: green;
+} 
+
+.student-image {
+    float: right;
+    margin-left: 20px;
+}
+p{
+    font-size: 26px;
+}
+aside {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.aside-image {
+    width: 500px;
+    height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+.student-image{
+    width: 400px;
+    height: 450px;
+}
+.temple1{
+    text-align: center;
+    margin: 20px;
+}
+.temple1 h1{
+    font-size: 40px;
+    color: #333;
+}
+.temple1 img{
+    width: 900px;
+
+}
