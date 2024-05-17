@@ -5,53 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Eshban Younis">
     <link rel="stylesheet" href="styles/about-style.css">
-    <title>"Rafting Company"Eshban Younis Course: Web Development WDD130</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Eshban Younis Course: Web Development WDD130</title>
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Company Logo">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <div class="logo">
+            <img src="images/logo.png" alt="Wild Water Rafting Logo">
+        </div>
+        <nav class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <main>
         <div class="hero">
-            <img src="hero-image.jpg" alt="Rafting Adventure">
-            <h1>Rafting Company</h1>
-            <article>
-                <img src="article-image.jpg" alt="Rafting Experience">
-                <p>Welcome to our exciting rafting adventures!</p>
-            </article>
+            <img src="images/hero-img.jpg" alt="Hero Image">
+            <div class="content">
+                <h1>Welcome to Our Website</h1>
+                <article class="article-content">
+                    <p>Rafting and whitewater rafting are outdoor entertainment activities that use a boat or an unsinkable raft. It has different difficulty levels according to the current of the water in which the sport is done. It can be done solo but is more commonly done with groups and needs good teamwork to manage the water.</p>
+                    <img  src="images/logo.png" alt="article img">
+                    
+                </article>
+            </div>
         </div>
-        
-        <section>
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </section>
+        </main>
 
-        <section>
-            <h2>Adventure Awaits You</h2>
-            <img src="adventure1.jpg" alt="Adventure 1">
-            <img src="adventure2.jpg" alt="Adventure 2">
-            <img src="adventure3.jpg" alt="Adventure 3">
-            <img src="adventure4.jpg" alt="Adventure 4">
-            <img src="adventure5.jpg" alt="Adventure 5">
-        </section>
-    </main>
+    <section class="history">
+        <h2>History</h2>
+        <p>During the turn of the century, a new type of business sprung up in the Lehigh Gorge. A resort was built in Jim Thorpe along the Lehigh River. The 47 room Hotel Wahnetah was a perfect getaway for people in Northeastern United States. The hotel prided itself on the beautiful hike to the Glen Onoko falls which became nearly as popular as Niagara Falls at the time. Unfortunately, the beauty of the hotel was short- lived. In 1911 it burned down in a major forest fire. The falls and their beauty still remain there and can be seen on hikes through this area. There are even remains of stone steps and foundations of old building</p>
+    </section>
 
-    <footer>
-        <p>&copy; <span id="year">2024</span> Rafting Company | Student Name</p>
-        <div class="social-icons">
-            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
-            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-        </div>
-    </footer>
+    <section class="adventure">
+        <h2>Adventure Awaits You</h2>
+        <div class="adenture-img">
+        <img src="images/rafting01.jpg" alt="Adventure 1">
+        <img src="images/rafting2.jpg" alt="Adventure 2">
+        <img src="images/rafting3.jpg" alt="Adventure 3">
+        <img src="images/rafting4.jpg" alt="Adventure 4">
+        <img src="images/rafting5.jpg" alt="Adventure 5">
+    </div>
+    </section>
+
+
+<footer>
+    <p> year 2024 Rafting Company | Eshban Younis WDD 130 </p>
+    <div class="social-icons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+    </div>
+</footer>
+    
 </body>
 </html>

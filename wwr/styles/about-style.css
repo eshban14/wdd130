@@ -1,92 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-:root {
-    --primary-color: #004080;
-    --secondary-color: #FFD700;
-    --text-color: #333;
-}
-
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-    color: var(--text-color);
+   
 }
-
+:root {
+    --primary-color: #004080;
+    --secondary-color: #66b3ff;
+    --text-color: #333;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header {
     background-color: var(--primary-color);
-    padding: 20px;
+    color: white;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-header img {
-    width: 100px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
+.nav-items a{
+    color: #333;
+    padding: 30px;
     text-decoration: none;
-    color: white;
+    font-size: 20px;
 }
-
-main {
-    padding: 20px;
-}
-
 .hero {
     position: relative;
+    width: 100%;
+    height: 400px; 
+    overflow: hidden;
+
 }
 
 .hero img {
-    float: right;
-    width: 40%;
-    margin-left: 20px;
+    width: 100%;
+    height: auto;
+
 }
 
-.hero h1, .hero article {
+.content {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     color: white;
 }
-
-.hero h1 {
-    top: 50px;
-    left: 20px;
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
-.hero article {
-    top: 100px;
-    left: 20px;
-}
-
-section {
-    margin-top: 20px;
-}
-
-footer {
-    background-color: var(--primary-color);
+.content article {
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
-    color: white;
+}
+.article-content{
+    display: inline-flex;
+    
+}
+.article-content p{
+    text-align: justify;
+}
+.history{
+    padding-top: 50px;
+    text-align: justify;
+}
+.history h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+
+.adventure{
+    padding-top: 50px;
+
+}
+.adventure h2{
+    font-size: 40px;
     text-align: center;
 }
 
-.social-icons {
-    margin-top: 10px;
+.adenture-img{
+    width: 80%;
+    margin: 50px auto 50px;
+    display: flex; 
+    gap: 20px;   
 }
-
-.social-icons img {
-    width: 30px;
-    margin: 0 5px;
+.adenture-img img{
+    width: 200px;
+}
+footer {
+    margin-top: 20px;
+    border-top: 2px solid #333;
+    text-align: center;
 }
