@@ -1,111 +1,52 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-}
-
+/* CSS for the .box rule */
 .box {
-    list-style-type: none;
-    text-align: center;
+    margin: 20px;
+    border: 2px solid #000;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
-.box li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.box li:last-child {
-    margin-right: 0;
-}
-
-.box a {
-    color: white;
-    text-decoration: none;
-}
-.box a:hover{
-    color: green;
-}
-
-main {
-    margin-top: 20px;
-    padding: 20px;
-}
-
-.temple-list {
-    list-style-type: none;
-}
-/* Styling for temple list items */
-
-.temple-list li {
-    margin-bottom: 10px;
-}
-
-.temple-list a {
-    text-decoration: none;
-    color: purple;
-    font-size: 20px;
-    font-weight: bold;
-}
-.temple-list a:hover{
-    color: green;
-} 
-/* Styling for student image */
-.main-img{
-    width: 400px;
-    height: 450px;
+/* CSS for the profile image to float right */
+.profile-pic {
     float: right;
-    margin-left: 20px;
+    margin-left: 10px;
+    width: 400px;
+    height: 300px;
 }
-p{
-    font-size: 26px;
-}
-.aside {
+
+
+/* CSS for the aside element and its children */
+aside {
     position: relative;
     margin-top: 20px;
-    margin-left: 20px;
-}
-
-/* Styling for aside image */
-.aside-image {
     width: 500px;
-    height: auto;
 }
 
-/* Styling for aside content */
-.aside h2 {
+aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.7); /* Adding a background to ensure readability */
     padding: 5px;
 }
 
-.temple1{
-    text-align: center;
-    margin: 20px;
+aside img {
+    width: 100%;
 }
-.temple1 h1{
-    font-size: 40px;
-    color: #333;
-}
-.temple1 img{
-    width: 900px;
 
+/* CSS for the navigation bar */
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
-footer {
-    margin-top: 20px;
 
-    text-align: center;
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
 }
