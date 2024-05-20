@@ -10,7 +10,7 @@ body {
 
 header, footer, .grid {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 840px;
 }
 
 header h1 {
