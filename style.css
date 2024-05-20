@@ -8,13 +8,9 @@ body {
     background-color: #f4f4f4;
 }
 
-header, .grid, footer {
-    width: 80%;
-    max-width: 1200px;
+header, footer, .grid {
     margin: 0 auto;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 840px;
 }
 
 header h1 {
