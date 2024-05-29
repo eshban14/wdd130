@@ -1,0 +1,60 @@
+/* Resetting some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles for header */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Basic styles for main content */
+main {
+    padding: 20px;
+}
+
+/* Styles for history and adventure sections */
+.history, .adventure {
+    margin-bottom: 40px;
+}
+
+/* Basic styles for footer */
+footer {
+    padding: 20px;
+    text-align: right;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icons a {
+    margin-left: 10px;
+}
