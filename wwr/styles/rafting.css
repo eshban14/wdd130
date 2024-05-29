@@ -6,10 +6,21 @@ body, h1, h2, h3, p, ul {
 
 /* Basic styles for header */
 header {
+    background-color: steelblue;
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
     padding: 20px;
+}
+.about{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top ;
+    height: 300px;
+    background-image: url(https://center.whitewater.org/wp-content/uploads/2020/06/Whitewater-Rafting-09202018-7-2-2.jpg);
 }
 
 .logo {
@@ -19,10 +30,15 @@ header {
 nav ul {
     list-style-type: none;
     display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    margin-right: 20px;
+    margin-right: 25px;
+    
+}
+img{
+    width: 200px;
 }
 
 nav ul li:last-child {
@@ -31,8 +47,31 @@ nav ul li:last-child {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 20px;
 }
+h1, h2, h3, h4{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    padding: 16px;
+    
+}
+.history-sec{
+    display: flex;
+    align-items: center;
+}
+.first, .sec, .third{
+    padding: 16px;
+}
+.sec img{
+    width: 300px;
+}
+.ad-img{
+    display: flex;
+    overflow: hidden;
+}
+
 
 /* Basic styles for main content */
 main {
@@ -44,17 +83,14 @@ main {
     margin-bottom: 40px;
 }
 
-/* Basic styles for footer */
 footer {
     padding: 20px;
+    background-color: steelblue;
+    color: white;
     text-align: right;
 }
-
-.social-media-icons {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.social-media-icons a {
-    margin-left: 10px;
+footer a{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
 }
