@@ -49,6 +49,10 @@ nav ul li a {
     margin-bottom: 2em;
 }
 .contact-info {
+    background-image: url(https://center.whitewater.org/wp-content/uploads/2020/06/Whitewater-Rafting-09202018-7-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
     background-color: #f4f4f4;
     padding: 1em;
 }
