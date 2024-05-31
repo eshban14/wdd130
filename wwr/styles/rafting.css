@@ -52,29 +52,56 @@ nav ul li a {
     background-color: #f4f4f4;
     padding: 1em;
 }
-.contact-form form {
-    display: flex;
-    flex-direction: column;
+/* CSS for Contact Form Section */
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.contact-form form label {
-    margin-bottom: 0.5em;
+
+.contact-form h2 {
+    margin-top: 0;
 }
-.contact-form form input, 
-.contact-form form select, 
-.contact-form form textarea {
-    margin-bottom: 1em;
-    padding: 0.5em;
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea,
+.contact-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
-.contact-form form button {
-    background-color: #5cb85c;
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #4CAF50;
     color: white;
-    padding: 1em;
+    padding: 12px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
-.contact-form form button:hover {
-    background-color: #4cae4c;
+
+.contact-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.contact-form input[type="radio"] + label {
+    margin-right: 15px;
 }
 .employee-section img {
     width: 100px;

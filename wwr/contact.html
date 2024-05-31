@@ -23,9 +23,10 @@
             </ul>
         </nav>
     </header>
+    <main>
     <div class="container">
         <section class="contact-info">
-            <h2>Contact Information</h2>
+            <h1>Contact Information</h1>
             <p>Address: 1234 Main St, Anytown, USA</p>
             <p>Phone: (123) 456-7890</p>
             <p>Email: info-rafting@gmail.com</p>
@@ -41,6 +42,12 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
                 
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+        
+                <label for="company">Company:</label>
+                <input type="text" id="company" name="company">
+                
                 <label for="purpose">Purpose:</label>
                 <select id="purpose" name="purpose">
                     <option value="general">General Inquiry</option>
@@ -48,16 +55,23 @@
                     <option value="sales">Sales</option>
                 </select>
                 
+                <label>Preferred Contact Method:</label>
+                <input type="radio" id="contact-method-email" name="contact-method" value="email">
+                <label for="contact-method-email">Email</label>
+                <input type="radio" id="contact-method-phone" name="contact-method" value="phone">
+                <label for="contact-method-phone">Phone</label>
+                
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
                 
                 <label>
-                    <input type="checkbox" name="newsletter"> Subscribe to our newsletter
+                    <input type="checkbox" id="newsletter" name="newsletter"> Subscribe to our newsletter
                 </label>
                 
                 <button type="submit">Send Message</button>
             </form>
         </section>
+        
         
         <section class="employee-section">
             <h2>Our Team</h2>
@@ -75,6 +89,7 @@
             </div>
         </section>
     </div>
+</main>
     <footer>
         <p>&copy; 2024 [WhiteWater Rafting]. All rights reserved. | <a href="wireframe.pdf">Wireframe</a></p>
     </footer>
